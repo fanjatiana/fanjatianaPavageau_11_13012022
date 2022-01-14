@@ -1,0 +1,26 @@
+.card {
+    width: 340px;
+    height: 340px;
+    margin: 3em 1em 1em 2em;
+    position: relative;
+}
+
+
+
+.card > article {
+    width: 100%;
+}
+
+.card img {
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: #FFF;
+    width: 70%;
+}
