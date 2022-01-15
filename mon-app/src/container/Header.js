@@ -1,15 +1,16 @@
 import LogoKasa from "../components/Logo";
 import Nav from "../components/Nav";
 import "../styles/Header.css";
+import {Link}  from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="bloc-header">
-      <a href="">
+      <Link to="/Accueil">
         <h1>
           <LogoKasa />
         </h1>
-      </a>
+      </Link>
       <Nav />
     </header>
   );
