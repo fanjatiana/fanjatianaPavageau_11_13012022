@@ -6,7 +6,7 @@ import {Link}  from "react-router-dom";
 const Header = () => {
   return (
     <header className="bloc-header">
-      <Link to="/Accueil">
+      <Link to="/">
         <h1>
           <LogoKasa />
         </h1>

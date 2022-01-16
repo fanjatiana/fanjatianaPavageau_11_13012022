@@ -1,11 +1,11 @@
 import "../styles/nav.css";
-import {NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
     <div className="nav-links">
       <NavLink
-        to="/Accueil" 
+        to="/"
         className={({ isActive }) =>
           "header_Nav_link" + (isActive ? " activated" : "")
         }
@@ -13,7 +13,7 @@ function Nav() {
         Accueil
       </NavLink>
       <NavLink
-        to="/A-propos" 
+        to="/A-propos"
         className={({ isActive }) =>
           "header_Nav_link" + (isActive ? " activated" : "")
         }
