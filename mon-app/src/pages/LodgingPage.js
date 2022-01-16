@@ -6,7 +6,6 @@ import { dataKasa } from "../data";
 const LodgingPage = () => {
   let params = useParams();
   const id = params.id
-  
   const currentItem = dataKasa.find((item) => item.id === id)
   
   return (
