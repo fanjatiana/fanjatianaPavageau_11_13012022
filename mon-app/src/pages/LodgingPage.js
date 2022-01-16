@@ -1,10 +1,17 @@
 import React from "react";
-import Banner from "../container/Banner";
+import { useParams } from "react-router-dom";
+import { dataKasa } from "../data";
+
 
 const LodgingPage = () => {
+  let params = useParams();
+  const id = params.id
+  
+  const currentItem = dataKasa.find((item) => item.id === id)
+  
   return (
     <>
-      <Banner />
+     <h1>{currentItem.description}</h1>
     </>
   );
 };

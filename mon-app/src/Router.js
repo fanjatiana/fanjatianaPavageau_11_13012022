@@ -12,12 +12,8 @@ const Router = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/A-propos" element={<About />} />
+        <Route path="/Hebergement/:id" element={<LodgingPage />} />
         <Route path="*" element={<NotFound />} />
-        {dataKasa &&
-          dataKasa.length > 0 &&
-          dataKasa.map((item) => (
-            <Route path={item.id} element={<LodgingPage />} />
-          ))}
       </Routes>
     </>
   );

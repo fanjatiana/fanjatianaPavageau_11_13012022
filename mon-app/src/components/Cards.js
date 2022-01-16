@@ -10,8 +10,8 @@ const Cards = () => {
       {dataKasa &&
         dataKasa.length > 0 &&
         dataKasa.map((item) => (
-          <article className="card" id={item.id}>
-            <NavLink to={item.id}>
+          <article className="card" key={item.id}>
+            <NavLink to={`/Hebergement/${item.id}`}>
               <div className="bg_filter">
                 <img className="cards_img" alt="" src={item.cover} />
               </div>
