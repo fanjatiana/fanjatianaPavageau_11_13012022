@@ -3,6 +3,7 @@ import Banner from "../container/Banner";
 import Main from "../container/Main";
 import img_homePage from "../assets/img_homePage.jpg"
 
+
 const Home = () => {
   
   return (
