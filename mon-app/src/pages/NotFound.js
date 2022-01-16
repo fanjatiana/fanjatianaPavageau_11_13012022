@@ -1,13 +1,18 @@
-import React from 'react';
-
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "../styles/NotFound.css";
 const NotFound = () => {
-    return (
-        <div>
-            <h1>404</h1>
-            <p>Oups! La page que vous demandez n'existe pas.</p>
-        </div>
-    );
+  return (
+    <main className="notFound_container">
+      <div className="Error-message">
+        <h2>404</h2>
+        <p>Oups! La page que vous demandez n'existe pas.</p>
+      </div>
+      <div className="link_backToHome">
+        <NavLink to="/">Retourner sur la page d'accueil</NavLink>
+      </div>
+    </main>
+  );
 };
 
 export default NotFound;
-

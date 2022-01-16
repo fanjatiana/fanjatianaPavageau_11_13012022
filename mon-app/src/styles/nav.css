@@ -3,10 +3,14 @@
   flex-direction: row;
   justify-content: end;
   margin-left: 0;
+  
 }
 
 .header_Nav_link {
   text-decoration: none;
+  color :#FF6060;
+  font-size: 2em;
+  margin-right: 1em;
 }
 
 .activated {
