@@ -7,7 +7,7 @@ const Ratings = (props) => {
     const {number} = props
     const arrayStars = Array(5).fill("StarGray");
     const nbOfRating = arrayStars.map((star,index)=> index < number ? "StarRed" : "StarGray" );
-    console.log(nbOfRating)
+
     return (
         <div>
             <ul className='stars_list'>

@@ -4,6 +4,7 @@ import BlockCollapse from "../components/Block_collapse";
 import LodgingIntroduction from "../components/Lodging_introduction";
 import "../styles/Lodging-page.css"
 import { dataKasa } from "../data";
+import Carousel from "../container/Carousel";
 
 const LodgingPage = () => {
   let params = useParams();
@@ -16,6 +17,8 @@ const LodgingPage = () => {
 
   return (
     <main>
+      <Carousel
+      imgSrc = {currentItem.pictures}/>
       <LodgingIntroduction
         lodgingTitle={currentItem.title}
         location={currentItem.location}
