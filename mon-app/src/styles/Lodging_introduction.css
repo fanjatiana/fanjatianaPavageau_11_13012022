@@ -1,0 +1,34 @@
+
+.loadging_container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.block_introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.location_lodging{
+    width: 50%;
+}
+
+.location_lodging h2, p, li{
+    color : #ff6060;
+}
+
+.location_lodging li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+    /*border : 1px #ff6060 solid;*/
+    
+}
+
+.about_lodging{
+    width: 50%;
+}

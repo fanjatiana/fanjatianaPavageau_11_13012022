@@ -1,8 +1,6 @@
 import React from 'react';
 
-const LodgingInfos = () => {
-
-    
+const Carousel = () => {
     return (
         <div>
             
@@ -10,4 +8,4 @@ const LodgingInfos = () => {
     );
 };
 
-export default LodgingInfos
+export default Carousel;

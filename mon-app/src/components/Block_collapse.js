@@ -1,15 +1,13 @@
 import React from "react";
 import { useState } from "react/cjs/react.development";
 import "../styles/Block_collapse.css";
-import Vector from "../assets/Vector.png"
+import "../styles/Lodging_introduction.css";
 
 const BlockCollapse = (props) => {
   const [isCollapsed, setIsCollapsed] = useState("collapsed");
   const { title, text } = props;
-
-  console.log(text)
   return (
-    <div className="about_container">
+    <div className="about_container loadging_container">
       <button
         className="collapse-button"
         onClick={() => setIsCollapsed(!isCollapsed)}
@@ -21,7 +19,15 @@ const BlockCollapse = (props) => {
         className={`collapse-content ${isCollapsed ? "collapsed" : "expanded"}`}
         aria-expanded={isCollapsed}
       >
-        {typeof text === "string" ? `${text}` : <ul>{text.map((item)=>(<li>{item}</li>))}</ul> }
+        {typeof text === "string" ? (
+          <p className="collapse_about">{text}</p>
+        ) : (
+          <ul>
+            {text.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );
