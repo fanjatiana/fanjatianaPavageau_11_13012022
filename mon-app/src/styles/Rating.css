@@ -1,3 +1,11 @@
+
+
+.block_rating{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
 .stars_list{
     display: flex;
     flex-direction: row;

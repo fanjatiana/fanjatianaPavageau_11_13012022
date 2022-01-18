@@ -1,4 +1,4 @@
-.about_container {
+.collapse_container {
   width: 90%;
   margin: 1em auto 2em;
   display: flex;
@@ -16,10 +16,11 @@
   justify-content: space-between;
 }
 
-.collapse-button h3 {
+.collapse-h3 {
   color: #fff;
   font-size: 24px;
   margin-left: 1em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .collapse-button i{
@@ -30,9 +31,9 @@
 }
 .collapse-content {
   width: 80%;
-  margin: auto;
   background-color: #f7f7f7;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .collapse-content p, .collapse-content li {
@@ -40,6 +41,7 @@
   line-height: 142.6%;
   color: #ff6060;
   margin: 0.5em 1em;
+  font-family: 'Montserrat', sans-serif;
 }
 .collapsed {
   display: none;

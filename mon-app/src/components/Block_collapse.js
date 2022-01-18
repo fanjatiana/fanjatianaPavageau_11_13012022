@@ -3,16 +3,17 @@ import { useState } from "react/cjs/react.development";
 import "../styles/Block_collapse.css";
 import "../styles/Lodging_introduction.css";
 
+
 const BlockCollapse = (props) => {
   const [isCollapsed, setIsCollapsed] = useState("collapsed");
   const { title, text } = props;
   return (
-    <div className="about_container loadging_container">
+    <div className="collapse_container ">
       <button
         className="collapse-button"
         onClick={() => setIsCollapsed(!isCollapsed)}
       >
-        <h3>{title}</h3>
+        <h3 className="collapse-h3">{title}</h3>
         <i className={`fas fa-chevron-down ${isCollapsed ? "" : "rotate"}`}></i>
       </button>
       <div

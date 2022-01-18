@@ -9,19 +9,20 @@ const LodgingIntroduction = (props) => {
       <div className="location_lodging">
         <h2>{lodgingTitle}</h2>
         <p>{location}</p>
-        <ul>
+        <ul className="tags_list">
           {tagList.map((tag) => (
             <li>{tag}</li>
           ))}
         </ul>
       </div>
-      <div>
-        <div className="about_lodging">
-          <img src={SrcPicture} alt="emetteur de l'annonce" />
-          <p>{name}</p>
+      <div className="info_lodging">
+        <div className="transmitter-and-rating">
+          <div className="block_img">
+            <img src={SrcPicture} alt="emetteur de l'annonce" />
+          </div>
+          <p className="transmitter_name">{name}</p>
         </div>
-        <Ratings
-        number = {parseInt(nbStars) }/>
+        <Ratings number={parseInt(nbStars)} />
       </div>
     </div>
   );

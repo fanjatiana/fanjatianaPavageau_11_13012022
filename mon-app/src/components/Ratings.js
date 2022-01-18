@@ -9,7 +9,7 @@ const Ratings = (props) => {
     const nbOfRating = arrayStars.map((star,index)=> index < number ? "StarRed" : "StarGray" );
 
     return (
-        <div>
+        <div className='block_rating'>
             <ul className='stars_list'>
                 {nbOfRating.map((rating)=>(rating === "StarRed"? <div className='star_red'><li><img src={StarRed} alt=""/></li></div> : <div className='star_gray'><li><img src={StarGray} alt=""/></li></div> ))}
             </ul>

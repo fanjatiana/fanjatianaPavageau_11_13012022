@@ -1,8 +1,10 @@
 .card {
     width: 340px;
     height: 340px;
-    margin: 3em 1em 1em 2em;
+   /* margin: 3em 1em 1em 2em;*/
     position: relative;
+    margin:2em;
+   
 }
 
 
@@ -15,12 +17,16 @@
     width: 340px;
     height: 340px;
     border-radius: 10px;
+   
 }
 
 .card h3 {
-    position: absolute;
-    bottom: 5px;
-    left: 10px;
     color: #FFF;
-    width: 70%;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1em;
+}
+
+.link_go-to-lodging-page{
+    text-decoration: none;
 }

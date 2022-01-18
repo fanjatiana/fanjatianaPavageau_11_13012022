@@ -1,7 +1,11 @@
-import logo from '../assets/logo.jpg'
+import logo from "../assets/logo.jpg";
 
-function LogoKasa () {
-    return <img src={logo} alt= "logo du site Kasa"/>
+function LogoKasa() {
+  return (
+    <div>
+      <img src={logo} alt="logo du site Kasa" />
+    </div>
+  );
 }
 
-export default LogoKasa
+export default LogoKasa;
