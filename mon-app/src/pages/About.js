@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../container/Banner";
 import img_AboutPage from "../assets/img_AboutPage.jpg";
 import BlockCollapse from "../components/Block_collapse";
+import "../styles/About.css"
 
 const About = () => {
   const collapseText = {
@@ -17,7 +18,7 @@ const About = () => {
   return (
     <>
       <Banner imgSrc={img_AboutPage} title="" />
-      <main>
+      <main className="about_container">
         <BlockCollapse title={"Fiabilité"} text={collapseText.Fiabilité} />
         <BlockCollapse title={"Respect"} text={collapseText.Respect} />
         <BlockCollapse title={"Service"} text={collapseText.Service} />

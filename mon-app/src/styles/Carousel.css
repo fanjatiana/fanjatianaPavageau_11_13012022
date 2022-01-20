@@ -20,7 +20,7 @@
     margin: auto;
     text-align: center;
     position: absolute;
-    top: 520px;
+    top: 600px;
     left: 3%;
     font-size: 1em;
     color: #FFF;
@@ -32,7 +32,7 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    top:148px;
+    top:130px;
     height: 415px;
     width: 90%;
     left: 5%;
@@ -56,3 +56,25 @@
     padding: 2%;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1024px){
+  .carousel_container, .block_currentImage ,   .block_carousel-icon  {
+    height: 255px;
+  }
+  .block_carousel-icon img{
+    width: 18px;
+  }
+
+  .page-counter{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 580px){
+  .block_carousel-icon{
+    top:70px;
+  }
+}
+
+

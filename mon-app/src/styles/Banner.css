@@ -26,3 +26,17 @@
   height: 100%;
 }
 
+
+@media screen and (max-width: 580px){
+  .banner{
+    margin-top:0;
+    margin-bottom:1em;
+    height: 111px;
+  }
+  
+  
+  .banner h2{
+    font-size: 1.5em;
+    width: 90%;
+  }
+}

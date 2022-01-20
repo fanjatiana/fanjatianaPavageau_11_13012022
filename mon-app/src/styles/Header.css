@@ -4,15 +4,32 @@
     justify-content: space-between;
     align-items: center;
     width: 90%;
+    height: 128px;
     margin:auto;
 }
 
-
-
-.bloc-header img{
-    width: 60%;
+.bloc-header .logo{
+    width: 40%;
 }
 
-.bloc-header div{
-    width: 70%;
+.bloc-header img{
+   height: 128px;
+}
+
+
+@media screen and (max-width: 580px){
+    .bloc-header{
+        height: 68px;
+    }
+
+  
+    .bloc-header img{
+        height: 68px;
+    }
+}
+
+@media screen and (max-width: 290px){
+    .bloc-header img{
+        width: 92%;
+    }
 }

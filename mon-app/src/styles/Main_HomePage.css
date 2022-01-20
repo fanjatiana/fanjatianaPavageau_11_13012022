@@ -8,4 +8,22 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 2em 0;
+
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        width: 100%;
+        border-radius: 0;
+     
+    }
+}
+
+@media screen and (max-width: 580px){
+    .container{
+        background-color: #FFF;
+        margin-top: 0;
+        padding-top: 0;
+       
+    }
 }

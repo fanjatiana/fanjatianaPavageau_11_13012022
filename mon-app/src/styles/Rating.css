@@ -17,3 +17,21 @@
     
     margin : 0 0.1em;
 }
+
+@media screen and (max-width: 1024px){
+    .info_lodging .block_rating{
+        justify-content: start;
+    }
+
+    .stars_list{
+        margin:0;
+    }    
+}
+
+
+
+@media screen and (max-width: 425px){
+    .stars_list img{
+        width: 15px;
+    }
+}
