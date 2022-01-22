@@ -78,6 +78,7 @@
 .transmitter_name{
     color: #ff6060;
     font-size: 1rem;
+    margin-right: 1em;
 }
 
 @media screen and (max-width: 1024px){
