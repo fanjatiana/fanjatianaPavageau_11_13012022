@@ -25,7 +25,7 @@ const BlockCollapse = (props) => {
         ) : (
           <ul>
             {text.map((item) => (
-              <li>{item}</li>
+              <li key={item}>{item}</li>
             ))}
           </ul>
         )}

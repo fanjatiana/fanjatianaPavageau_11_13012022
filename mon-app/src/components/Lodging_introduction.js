@@ -11,7 +11,7 @@ const LodgingIntroduction = (props) => {
         <p>{location}</p>
         <ul className="tags_list">
           {tagList.map((tag) => (
-            <li>{tag}</li>
+            <li key={tag}>{tag}</li>
           ))}
         </ul>
       </div>

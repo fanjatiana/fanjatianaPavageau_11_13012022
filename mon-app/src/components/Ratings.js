@@ -11,7 +11,7 @@ const Ratings = (props) => {
     return (
         <div className='block_rating'>
             <ul className='stars_list'>
-                {nbOfRating.map((rating)=>(rating === "StarRed"? <div className='star_red'><li><img src={StarRed} alt=""/></li></div> : <div className='star_gray'><li><img src={StarGray} alt=""/></li></div> ))}
+                {nbOfRating.map((rating, index)=>(rating === "StarRed"? <div key={"StarRed"+index} className='star_red'><li><img src={StarRed} alt=""/></li></div> : <div key={'star_gray'+index} className='star_gray'><li><img src={StarGray} alt=""/></li></div> ))}
             </ul>
         </div>
     );

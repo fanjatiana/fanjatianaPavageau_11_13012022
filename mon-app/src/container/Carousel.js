@@ -5,11 +5,9 @@ import gotToNextIcon from "../assets/arrow_right.svg";
 import "../styles/Carousel.css";
 
 const Carousel = (props) => {
-  console.log(props);
   const { imgSrc } = props;
   const [index, setNewIndex] = useState(0);
   const lastIndex = imgSrc.length - 1;
-  console.log(lastIndex);
   // Si nous sommes sur la 1ère image (index = 0) retour à la dernière image de la gallerie (lastIndex)
   const backToLastPicture = index === 0;
   // Si nous sommes sur la dernière image (index = lastIndex) retour à la 1ère image de la gallerie (index = 0)
