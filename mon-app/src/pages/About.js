@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "../container/Banner";
 import img_AboutPage from "../assets/img_AboutPage.jpg";
 import BlockCollapse from "../components/Block_collapse";
-import "../styles/About.css"
+import "../styles/About.css";
 
 const About = () => {
   const collapseText = {

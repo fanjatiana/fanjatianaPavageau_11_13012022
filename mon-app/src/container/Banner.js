@@ -5,11 +5,12 @@ function Banner(props) {
 
   return (
     <div className="banner">
-      <div className="bg_filter bg_img" 
-      style={{  
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(${imgSrc})`
-      }}
-        >
+      <div
+        className="bg_filter bg_img"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(${imgSrc})`,
+        }}
+      >
         <h2>{title}</h2>
       </div>
     </div>

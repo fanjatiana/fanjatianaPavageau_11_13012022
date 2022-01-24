@@ -3,7 +3,6 @@ import { useState } from "react/cjs/react.development";
 import "../styles/Block_collapse.css";
 import "../styles/Lodging_introduction.css";
 
-
 const BlockCollapse = (props) => {
   const [isCollapsed, setIsCollapsed] = useState("collapsed");
   const { title, text } = props;
