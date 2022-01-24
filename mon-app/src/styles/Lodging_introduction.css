@@ -22,7 +22,6 @@
   align-content: normal;
   align-items: end;
   margin-top: 1em;
-
 }
 
 .location_lodging h2 {
@@ -31,21 +30,21 @@
 }
 
 .location_lodging p {
-    color: #ff6060;
-    font-size: 1.5rem;
-  }
+  color: #ff6060;
+  font-size: 1.5rem;
+}
 
-.tags_list{
-    display: flex;
-    flex-direction: row;
-    padding-left: 0;
+.tags_list {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
 }
 
 .location_lodging li {
   list-style-type: none;
   margin-right: 1em;
- color:#FFF;
-  padding:0.6em;
+  color: #fff;
+  padding: 0.6em;
   border-radius: 15px;
   background: #ff6060;
   width: 115px;
@@ -75,16 +74,17 @@
   border-radius: 100%;
 }
 
-.transmitter_name{
-    color: #ff6060;
-    font-size: 1rem;
-    margin-right: 1em;
+.transmitter_name {
+  color: #ff6060;
+  font-size: 1rem;
+  margin-right: 1em;
 }
 
-@media screen and (max-width: 1024px){
+/* media queries */
+
+@media screen and (max-width: 1023px) {
   .block_introduction {
     flex-direction: column;
-
   }
 
   .location_lodging {
@@ -99,55 +99,51 @@
     font-size: 0.9em;
   }
 
-  .info_lodging{
+  .info_lodging {
     width: 100%;
     flex-direction: row-reverse;
     margin-top: 0;
     align-items: center;
     justify-content: space-between;
-
   }
   .info_lodging .transmitter-and-rating {
     width: 50%;
     align-items: center;
   }
 
-  .tags_list li{
+  .tags_list li {
     font-size: 0.8em;
   }
 
-  .block_img{
+  .block_img {
     width: 20%;
     margin-left: 1em;
     justify-content: end;
   }
 }
 
-@media screen and (max-width: 580px){
-
- 
-
-
-
-  .block_img img{
+@media screen and (max-width: 580px) {
+  .block_img img {
     width: 48px;
     height: 48px;
   }
-  .transmitter_name{
+  .transmitter_name {
     width: 70%;
     text-align: right;
   }
 
-  .info_lodging  .block_rating{
+  .info_lodging .block_rating {
     width: 30%;
   }
-
-
 }
 
-@media screen and (max-width: 425px){
-  .block_img img{
+@media screen and (max-width: 425px) {
+  .block_img img {
     width: 32px;
     height: 32px;
+  }
+
+  .tags_list li {
+    font-size: 10px;
   }
 }

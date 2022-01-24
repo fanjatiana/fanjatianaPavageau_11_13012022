@@ -14,16 +14,17 @@
   border-radius: 5px;
   border: none;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .collapse-h3 {
   color: #fff;
   font-size: 24px;
   margin-left: 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.collapse-button i{
+.collapse-button i {
   color: #fff;
   align-self: center;
   margin-right: 1em;
@@ -36,13 +37,15 @@
   border-bottom-right-radius: 5px;
 }
 
-.collapse-content p, .collapse-content li {
+.collapse-content p,
+.collapse-content li {
   font-size: 24px;
   line-height: 142.6%;
   color: #ff6060;
   margin: 0.5em 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
 .collapsed {
   display: none;
 }
@@ -51,13 +54,13 @@
   display: block;
 }
 
-.rotate{
-  transform:rotate(180deg);
+.rotate {
+  transform: rotate(180deg);
 }
 
-
-@media screen and (max-width: 1024px){
-  .collapse-button{
+/* media queries */
+@media screen and (max-width: 1023px) {
+  .collapse-button {
     width: 100%;
   }
 
@@ -65,8 +68,7 @@
     margin-right: 0.3em;
   }
 
-  .collapse-content{
+  .collapse-content {
     width: 100%;
   }
 }
-

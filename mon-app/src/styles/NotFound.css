@@ -5,6 +5,7 @@ body {
 p,
 h2,
 a {
+  font-family: "Montserrat", sans-serif;
 }
 
 .notFound_container {
@@ -22,6 +23,7 @@ a {
   flex-direction: column;
   align-items: center;
   margin-top: 5em;
+  margin-bottom: 8em;
 }
 
 .error-message h2 {
@@ -49,6 +51,8 @@ a {
   color: #ff6060;
 }
 
+/* media queries */
+
 @media screen and (min-width: 2000px) {
   body {
     max-width: 2000px;
@@ -56,7 +60,7 @@ a {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .notFound_container {
     height: 500px;
   }
@@ -92,12 +96,12 @@ a {
     width: 90%;
   }
 
-  .error-message p{
-      width: 90%;
+  .error-message p {
+    width: 90%;
     font-size: 1.2em;
   }
 
-  .link_backToHome{
-      font-size: 0.9em ;
+  .link_backToHome {
+    font-size: 0.9em;
   }
 }

@@ -1,83 +1,71 @@
 .card {
-    width: 340px;
-    height: 340px;
-   /* margin: 3em 1em 1em 2em;*/
-    position: relative;
-    margin:2em;
-   
+  width: 340px;
+  height: 340px;
+  position: relative;
+  margin: 2em;
 }
-
-
 
 .card > article {
-    width: 100%;
+  width: 100%;
 }
 
-.card .img_bg-filter{
-
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: start;
-    align-items: flex-end;
-    border-radius: 10px;
-    width: 340px;
-    height: 340px;
+.card .img_bg-filter {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  border-radius: 10px;
+  width: 340px;
+  height: 340px;
 }
 
 .card img {
-    width: 340px;
-    height: 340px;
-    border-radius: 10px;
-   
+  width: 340px;
+  height: 340px;
+  border-radius: 10px;
 }
 
 .card h3 {
-    color: #FFF;
-    width: 80%;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 1em;
+  color: #fff;
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 1em;
 }
 
-.link_go-to-lodging-page{
-    text-decoration: none;
+.link_go-to-lodging-page {
+  text-decoration: none;
 }
 
-@media screen and (max-width: 1024px){
-    .card{
-        width: 90%;
-        height: 340px;
-        margin: 0.5em 1.5em;
-    }
-    
-    .card .img_bg-filter {
-        width: 100%;
-        height: 340px;
-       
-    }
+/* media queries */
 
- 
+@media screen and (max-width: 1023px) {
+  .card {
+    width: 90%;
+    height: 340px;
+    margin: 0.5em 1.5em;
+  }
+
+  .card .img_bg-filter {
+    width: 100%;
+    height: 340px;
+  }
 }
 
-@media screen and (max-width: 425px){
-    .card{
-        width: 100%;
-        height: 250px;
-    }
-    
-    .card .img_bg-filter {
-        width: 100%;
-        height: 250px;
-       
-    }
+@media screen and (max-width: 425px) {
+  .card {
+    width: 100%;
+    height: 250px;
+  }
 
-    .card h3 {
-        width: 50%;
-        font-size: 0.9em;
-    }
+  .card .img_bg-filter {
+    width: 100%;
+    height: 250px;
+  }
 
-
+  .card h3 {
+    width: 50%;
+    font-size: 0.9em;
+  }
 }
-
-
