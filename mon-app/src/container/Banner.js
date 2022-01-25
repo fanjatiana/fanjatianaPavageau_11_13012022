@@ -11,7 +11,7 @@ function Banner(props) {
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(${imgSrc})`,
         }}
       >
-        <h2 className="hide" style={{
+        <h2 style={{
           display: `${h2Style}`,
         }}>{title}</h2>
       </div>
