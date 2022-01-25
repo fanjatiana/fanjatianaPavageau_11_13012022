@@ -7,7 +7,7 @@ import "../styles/Home.css";
 const Home = () => {
   return (
     <>
-      <Banner imgSrc={img_homePage} title={"Chez vous, partout et ailleurs"} />
+      <Banner imgSrc={img_homePage} title={"Chez vous, partout et ailleurs"} h2Style={"block"} />
       <Main />
     </>
   );

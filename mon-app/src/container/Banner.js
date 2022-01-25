@@ -1,7 +1,7 @@
 import "../styles/Banner.css";
 
 function Banner(props) {
-  const { imgSrc, title } = props;
+  const { imgSrc, title, h2Style } = props;
 
   return (
     <div className="banner">
@@ -11,7 +11,9 @@ function Banner(props) {
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(${imgSrc})`,
         }}
       >
-        <h2>{title}</h2>
+        <h2 className="hide" style={{
+          display: `${h2Style}`,
+        }}>{title}</h2>
       </div>
     </div>
   );

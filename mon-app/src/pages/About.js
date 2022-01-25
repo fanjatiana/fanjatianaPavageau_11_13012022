@@ -17,7 +17,7 @@ const About = () => {
   };
   return (
     <>
-      <Banner imgSrc={img_AboutPage} title="" />
+      <Banner imgSrc={img_AboutPage} title="" h2Style={"none"} />
       <main className="about_container">
         <BlockCollapse title={"Fiabilité"} text={collapseText.Fiabilité} />
         <BlockCollapse title={"Respect"} text={collapseText.Respect} />
