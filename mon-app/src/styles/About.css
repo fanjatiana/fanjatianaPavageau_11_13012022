@@ -17,6 +17,7 @@
   }
   .about_container .collapse-content.expanded p {
     font-size: 1em;
+    margin-bottom: 1em;
   }
 }
 
@@ -25,9 +26,10 @@
     font-size: 1em;
   }
   .about_container .collapse-content.expanded {
-    height: 145px;
+    height: auto;
   }
   .about_container .collapse-content.expanded p {
     font-size: 0.8em;
   }
 }
+
