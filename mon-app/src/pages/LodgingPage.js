@@ -10,7 +10,8 @@ import NotFound from "./NotFound";
 const LodgingPage = () => {
   let params = useParams();
   const id = params.id;
-  const { data, isLoading, error } = useFetchItemById("/data.json", id);
+  const { data, isLoading, error } = useFetchItemById("../data.json", id);
+  console.log(data)
   if (error) {
     return (
       <>

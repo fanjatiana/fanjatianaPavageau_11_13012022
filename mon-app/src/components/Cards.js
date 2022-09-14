@@ -5,7 +5,7 @@ import { useFetch } from "../hooks";
 import NotFound from "../pages/NotFound";
 
 const Cards = () => {
-  const { data, isLoading, error } = useFetch("/data.json");
+  const { data, isLoading, error } = useFetch("/../data.json");
 
   if (error) {
     return (
